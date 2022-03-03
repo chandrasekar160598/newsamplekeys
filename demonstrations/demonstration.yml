@@ -1,0 +1,14 @@
+---
+version: 2
+plan:
+  project-key: KEYLOG
+  key: NEWKEYLOG
+  name: keylog sucess
+stages:
+  - Build hull:
+    - Build
+    
+Build:
+  tasks:
+    - script:
+      - echo 'yaml specs in bamboo'
